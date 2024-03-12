@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/phonebook-bay-omega.vercel.app/static/css/main.5a72816f.css",
-    "main.js": "/phonebook-bay-omega.vercel.app/static/js/main.986312b6.js",
+    "main.js": "/phonebook-bay-omega.vercel.app/static/js/main.925577a7.js",
     "static/css/319.2cf38820.chunk.css": "/phonebook-bay-omega.vercel.app/static/css/319.2cf38820.chunk.css",
     "static/js/319.e60fe3d4.chunk.js": "/phonebook-bay-omega.vercel.app/static/js/319.e60fe3d4.chunk.js",
     "static/js/183.00959e8b.chunk.js": "/phonebook-bay-omega.vercel.app/static/js/183.00959e8b.chunk.js",
@@ -79,7 +79,7 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/phonebook-bay-omega.vercel.app/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/phonebook-bay-omega.vercel.app/index.html",
     "main.5a72816f.css.map": "/phonebook-bay-omega.vercel.app/static/css/main.5a72816f.css.map",
-    "main.986312b6.js.map": "/phonebook-bay-omega.vercel.app/static/js/main.986312b6.js.map",
+    "main.925577a7.js.map": "/phonebook-bay-omega.vercel.app/static/js/main.925577a7.js.map",
     "319.2cf38820.chunk.css.map": "/phonebook-bay-omega.vercel.app/static/css/319.2cf38820.chunk.css.map",
     "319.e60fe3d4.chunk.js.map": "/phonebook-bay-omega.vercel.app/static/js/319.e60fe3d4.chunk.js.map",
     "183.00959e8b.chunk.js.map": "/phonebook-bay-omega.vercel.app/static/js/183.00959e8b.chunk.js.map",
@@ -100,6 +100,6 @@
   },
   "entrypoints": [
     "static/css/main.5a72816f.css",
-    "static/js/main.986312b6.js"
+    "static/js/main.925577a7.js"
   ]
 }
