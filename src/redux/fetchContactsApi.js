@@ -23,7 +23,8 @@ const axiosBaseQuery =
 export const fetchContactsApi = createApi({
   reducerPath: 'contacts',
   baseQuery: axiosBaseQuery({
-    baseUrl: 'https://connections-api.herokuapp.com',
+    // baseUrl: 'https://connections-api.herokuapp.com',
+    baseUrl: 'https://database-contacts-api.onrender.com',
     prepareHeaders: (headers, { getState }) => {
       const token = getState().auth.token;
       if (token) {

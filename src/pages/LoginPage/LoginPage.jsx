@@ -23,6 +23,7 @@ export default function RegisterPage() {
   const navigate = useNavigate();
 
   const handleSubmit = async data => {
+    console.log('data :>> ', data);
     try {
       await dispatch(logInUser(data)).unwrap();
     } catch (error) {

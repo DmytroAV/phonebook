@@ -30,24 +30,24 @@ export default function RegisterPage() {
   const navigate = useNavigate();
 
   const handleSubmit = async data => {
-    const credentials = {
-      name: data.name,
-      email: data.email,
-      password: data.password,
-    };
-    console.log('credentials :>> ', credentials);
+    // const credentials = {
+    //   name: data.name,
+    //   email: data.email,
+    //   password: data.password,
+    // };
+    // console.log('credentials :>> ', credentials);
     try {
       await dispatch(
         registerUser({
           name: data.name,
           email: data.email,
           password: data.password,
-        })
+        }).unwrap()
       );
     } catch (error) {
       toast.error(error, notifyOptions);
     }
-    // navigate('/contacts');
+    navigate('/contacts');
   };
   return (
     <Grid
